@@ -61,7 +61,7 @@
 %% API
 %% --------------------------------------------------------------------
 
-default_options() -> [verbose, report].
+default_options() -> [].
 
 compile_template(Template, Module, Options) ->
     Context = process_opts(undefined, Module, Options),
